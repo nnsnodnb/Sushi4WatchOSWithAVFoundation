@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3DEE911DE9D33800BD688D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DEE901DE9D33800BD688D /* AppDelegate.swift */; };
+		CF3DEE931DE9D33800BD688D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DEE921DE9D33800BD688D /* ViewController.swift */; };
+		CF3DEE961DE9D33800BD688D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3DEE941DE9D33800BD688D /* Main.storyboard */; };
+		CF3DEE981DE9D33800BD688D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3DEE971DE9D33800BD688D /* Assets.xcassets */; };
+		CF3DEE9B1DE9D33800BD688D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3DEE991DE9D33800BD688D /* LaunchScreen.storyboard */; };
+		CF3DEEA61DE9D33800BD688D /* sushi4watchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DEEA51DE9D33800BD688D /* sushi4watchTests.swift */; };
+		CF3DEEB11DE9D33800BD688D /* sushi4watchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DEEB01DE9D33800BD688D /* sushi4watchUITests.swift */; };
+		CF3DEEB61DE9D33800BD688D /* sushi4watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF3DEEB51DE9D33800BD688D /* sushi4watch WatchKit App.app */; };
+		CF3DEEBC1DE9D33800BD688D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3DEEBA1DE9D33800BD688D /* Interface.storyboard */; };
+		CF3DEEBE1DE9D33800BD688D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3DEEBD1DE9D33800BD688D /* Assets.xcassets */; };
+		CF3DEEC51DE9D33800BD688D /* sushi4watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF3DEEC41DE9D33800BD688D /* sushi4watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF3DEECA1DE9D33800BD688D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DEEC91DE9D33800BD688D /* InterfaceController.swift */; };
+		CF3DEECC1DE9D33800BD688D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DEECB1DE9D33800BD688D /* ExtensionDelegate.swift */; };
+		CF3DEECE1DE9D33800BD688D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3DEECD1DE9D33800BD688D /* Assets.xcassets */; };
+		CF3DEF991DE9ECEB00BD688D /* sushi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3DEF981DE9ECEB00BD688D /* sushi.mp3 */; };
+		CF3DEF9A1DE9ECEB00BD688D /* sushi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3DEF981DE9ECEB00BD688D /* sushi.mp3 */; };
+		CF3DEF9B1DE9ECEB00BD688D /* sushi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3DEF981DE9ECEB00BD688D /* sushi.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3DEEA21DE9D33800BD688D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3DEE851DE9D33800BD688D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3DEE8C1DE9D33800BD688D;
+			remoteInfo = sushi4watch;
+		};
+		CF3DEEAD1DE9D33800BD688D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3DEE851DE9D33800BD688D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3DEE8C1DE9D33800BD688D;
+			remoteInfo = sushi4watch;
+		};
+		CF3DEEB71DE9D33800BD688D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3DEE851DE9D33800BD688D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3DEEB41DE9D33800BD688D;
+			remoteInfo = "sushi4watch WatchKit App";
+		};
+		CF3DEEC61DE9D33800BD688D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3DEE851DE9D33800BD688D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3DEEC31DE9D33800BD688D;
+			remoteInfo = "sushi4watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF3DEED51DE9D33800BD688D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CF3DEEC51DE9D33800BD688D /* sushi4watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEED91DE9D33800BD688D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CF3DEEB61DE9D33800BD688D /* sushi4watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF3DEE8D1DE9D33800BD688D /* sushi4watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sushi4watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3DEE901DE9D33800BD688D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3DEE921DE9D33800BD688D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF3DEE951DE9D33800BD688D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3DEE971DE9D33800BD688D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3DEE9A1DE9D33800BD688D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3DEE9C1DE9D33800BD688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3DEEA11DE9D33800BD688D /* sushi4watchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sushi4watchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3DEEA51DE9D33800BD688D /* sushi4watchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushi4watchTests.swift; sourceTree = "<group>"; };
+		CF3DEEA71DE9D33800BD688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3DEEAC1DE9D33800BD688D /* sushi4watchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sushi4watchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3DEEB01DE9D33800BD688D /* sushi4watchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushi4watchUITests.swift; sourceTree = "<group>"; };
+		CF3DEEB21DE9D33800BD688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3DEEB51DE9D33800BD688D /* sushi4watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sushi4watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3DEEBB1DE9D33800BD688D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CF3DEEBD1DE9D33800BD688D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3DEEBF1DE9D33800BD688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3DEEC41DE9D33800BD688D /* sushi4watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "sushi4watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3DEEC91DE9D33800BD688D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CF3DEECB1DE9D33800BD688D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CF3DEECD1DE9D33800BD688D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3DEECF1DE9D33800BD688D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3DEF981DE9ECEB00BD688D /* sushi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sushi.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3DEE8A1DE9D33800BD688D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEE9E1DE9D33800BD688D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEEA91DE9D33800BD688D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEEC11DE9D33800BD688D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3DEE841DE9D33800BD688D = {
+			isa = PBXGroup;
+			children = (
+				CF3DEE8F1DE9D33800BD688D /* sushi4watch */,
+				CF3DEEA41DE9D33800BD688D /* sushi4watchTests */,
+				CF3DEEAF1DE9D33800BD688D /* sushi4watchUITests */,
+				CF3DEEB91DE9D33800BD688D /* sushi4watch WatchKit App */,
+				CF3DEEC81DE9D33800BD688D /* sushi4watch WatchKit Extension */,
+				CF3DEE8E1DE9D33800BD688D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3DEE8E1DE9D33800BD688D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DEE8D1DE9D33800BD688D /* sushi4watch.app */,
+				CF3DEEA11DE9D33800BD688D /* sushi4watchTests.xctest */,
+				CF3DEEAC1DE9D33800BD688D /* sushi4watchUITests.xctest */,
+				CF3DEEB51DE9D33800BD688D /* sushi4watch WatchKit App.app */,
+				CF3DEEC41DE9D33800BD688D /* sushi4watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3DEE8F1DE9D33800BD688D /* sushi4watch */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DEE901DE9D33800BD688D /* AppDelegate.swift */,
+				CF3DEE921DE9D33800BD688D /* ViewController.swift */,
+				CF3DEE941DE9D33800BD688D /* Main.storyboard */,
+				CF3DEE971DE9D33800BD688D /* Assets.xcassets */,
+				CF3DEE991DE9D33800BD688D /* LaunchScreen.storyboard */,
+				CF3DEE9C1DE9D33800BD688D /* Info.plist */,
+			);
+			path = sushi4watch;
+			sourceTree = "<group>";
+		};
+		CF3DEEA41DE9D33800BD688D /* sushi4watchTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DEEA51DE9D33800BD688D /* sushi4watchTests.swift */,
+				CF3DEEA71DE9D33800BD688D /* Info.plist */,
+			);
+			path = sushi4watchTests;
+			sourceTree = "<group>";
+		};
+		CF3DEEAF1DE9D33800BD688D /* sushi4watchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DEEB01DE9D33800BD688D /* sushi4watchUITests.swift */,
+				CF3DEEB21DE9D33800BD688D /* Info.plist */,
+			);
+			path = sushi4watchUITests;
+			sourceTree = "<group>";
+		};
+		CF3DEEB91DE9D33800BD688D /* sushi4watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DEF981DE9ECEB00BD688D /* sushi.mp3 */,
+				CF3DEEBA1DE9D33800BD688D /* Interface.storyboard */,
+				CF3DEEBD1DE9D33800BD688D /* Assets.xcassets */,
+				CF3DEEBF1DE9D33800BD688D /* Info.plist */,
+			);
+			path = "sushi4watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		CF3DEEC81DE9D33800BD688D /* sushi4watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DEEC91DE9D33800BD688D /* InterfaceController.swift */,
+				CF3DEECB1DE9D33800BD688D /* ExtensionDelegate.swift */,
+				CF3DEECD1DE9D33800BD688D /* Assets.xcassets */,
+				CF3DEECF1DE9D33800BD688D /* Info.plist */,
+			);
+			path = "sushi4watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3DEE8C1DE9D33800BD688D /* sushi4watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3DEEDA1DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watch" */;
+			buildPhases = (
+				CF3DEE891DE9D33800BD688D /* Sources */,
+				CF3DEE8A1DE9D33800BD688D /* Frameworks */,
+				CF3DEE8B1DE9D33800BD688D /* Resources */,
+				CF3DEED91DE9D33800BD688D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3DEEB81DE9D33800BD688D /* PBXTargetDependency */,
+			);
+			name = sushi4watch;
+			productName = sushi4watch;
+			productReference = CF3DEE8D1DE9D33800BD688D /* sushi4watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3DEEA01DE9D33800BD688D /* sushi4watchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3DEEDD1DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watchTests" */;
+			buildPhases = (
+				CF3DEE9D1DE9D33800BD688D /* Sources */,
+				CF3DEE9E1DE9D33800BD688D /* Frameworks */,
+				CF3DEE9F1DE9D33800BD688D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3DEEA31DE9D33800BD688D /* PBXTargetDependency */,
+			);
+			name = sushi4watchTests;
+			productName = sushi4watchTests;
+			productReference = CF3DEEA11DE9D33800BD688D /* sushi4watchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3DEEAB1DE9D33800BD688D /* sushi4watchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3DEEE01DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watchUITests" */;
+			buildPhases = (
+				CF3DEEA81DE9D33800BD688D /* Sources */,
+				CF3DEEA91DE9D33800BD688D /* Frameworks */,
+				CF3DEEAA1DE9D33800BD688D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3DEEAE1DE9D33800BD688D /* PBXTargetDependency */,
+			);
+			name = sushi4watchUITests;
+			productName = sushi4watchUITests;
+			productReference = CF3DEEAC1DE9D33800BD688D /* sushi4watchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CF3DEEB41DE9D33800BD688D /* sushi4watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3DEED61DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watch WatchKit App" */;
+			buildPhases = (
+				CF3DEEB31DE9D33800BD688D /* Resources */,
+				CF3DEED51DE9D33800BD688D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3DEEC71DE9D33800BD688D /* PBXTargetDependency */,
+			);
+			name = "sushi4watch WatchKit App";
+			productName = "sushi4watch WatchKit App";
+			productReference = CF3DEEB51DE9D33800BD688D /* sushi4watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CF3DEEC31DE9D33800BD688D /* sushi4watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3DEED21DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watch WatchKit Extension" */;
+			buildPhases = (
+				CF3DEEC01DE9D33800BD688D /* Sources */,
+				CF3DEEC11DE9D33800BD688D /* Frameworks */,
+				CF3DEEC21DE9D33800BD688D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sushi4watch WatchKit Extension";
+			productName = "sushi4watch WatchKit Extension";
+			productReference = CF3DEEC41DE9D33800BD688D /* sushi4watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3DEE851DE9D33800BD688D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = nnsnodnb;
+				TargetAttributes = {
+					CF3DEE8C1DE9D33800BD688D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K72SHQ4B82;
+						ProvisioningStyle = Automatic;
+					};
+					CF3DEEA01DE9D33800BD688D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K72SHQ4B82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF3DEE8C1DE9D33800BD688D;
+					};
+					CF3DEEAB1DE9D33800BD688D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K72SHQ4B82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF3DEE8C1DE9D33800BD688D;
+					};
+					CF3DEEB41DE9D33800BD688D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K72SHQ4B82;
+						ProvisioningStyle = Automatic;
+					};
+					CF3DEEC31DE9D33800BD688D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K72SHQ4B82;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF3DEE881DE9D33800BD688D /* Build configuration list for PBXProject "sushi4watch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3DEE841DE9D33800BD688D;
+			productRefGroup = CF3DEE8E1DE9D33800BD688D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3DEE8C1DE9D33800BD688D /* sushi4watch */,
+				CF3DEEA01DE9D33800BD688D /* sushi4watchTests */,
+				CF3DEEAB1DE9D33800BD688D /* sushi4watchUITests */,
+				CF3DEEB41DE9D33800BD688D /* sushi4watch WatchKit App */,
+				CF3DEEC31DE9D33800BD688D /* sushi4watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3DEE8B1DE9D33800BD688D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3DEE9B1DE9D33800BD688D /* LaunchScreen.storyboard in Resources */,
+				CF3DEE981DE9D33800BD688D /* Assets.xcassets in Resources */,
+				CF3DEE961DE9D33800BD688D /* Main.storyboard in Resources */,
+				CF3DEF991DE9ECEB00BD688D /* sushi.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEE9F1DE9D33800BD688D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEEAA1DE9D33800BD688D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEEB31DE9D33800BD688D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3DEEBE1DE9D33800BD688D /* Assets.xcassets in Resources */,
+				CF3DEF9A1DE9ECEB00BD688D /* sushi.mp3 in Resources */,
+				CF3DEEBC1DE9D33800BD688D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEEC21DE9D33800BD688D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3DEECE1DE9D33800BD688D /* Assets.xcassets in Resources */,
+				CF3DEF9B1DE9ECEB00BD688D /* sushi.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3DEE891DE9D33800BD688D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3DEE931DE9D33800BD688D /* ViewController.swift in Sources */,
+				CF3DEE911DE9D33800BD688D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEE9D1DE9D33800BD688D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3DEEA61DE9D33800BD688D /* sushi4watchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEEA81DE9D33800BD688D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3DEEB11DE9D33800BD688D /* sushi4watchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEEC01DE9D33800BD688D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3DEECC1DE9D33800BD688D /* ExtensionDelegate.swift in Sources */,
+				CF3DEECA1DE9D33800BD688D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3DEEA31DE9D33800BD688D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3DEE8C1DE9D33800BD688D /* sushi4watch */;
+			targetProxy = CF3DEEA21DE9D33800BD688D /* PBXContainerItemProxy */;
+		};
+		CF3DEEAE1DE9D33800BD688D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3DEE8C1DE9D33800BD688D /* sushi4watch */;
+			targetProxy = CF3DEEAD1DE9D33800BD688D /* PBXContainerItemProxy */;
+		};
+		CF3DEEB81DE9D33800BD688D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3DEEB41DE9D33800BD688D /* sushi4watch WatchKit App */;
+			targetProxy = CF3DEEB71DE9D33800BD688D /* PBXContainerItemProxy */;
+		};
+		CF3DEEC71DE9D33800BD688D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3DEEC31DE9D33800BD688D /* sushi4watch WatchKit Extension */;
+			targetProxy = CF3DEEC61DE9D33800BD688D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF3DEE941DE9D33800BD688D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3DEE951DE9D33800BD688D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3DEE991DE9D33800BD688D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3DEE9A1DE9D33800BD688D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3DEEBA1DE9D33800BD688D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3DEEBB1DE9D33800BD688D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3DEED01DE9D33800BD688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3DEED11DE9D33800BD688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3DEED31DE9D33800BD688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				INFOPLIST_FILE = "sushi4watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		CF3DEED41DE9D33800BD688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				INFOPLIST_FILE = "sushi4watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		CF3DEED71DE9D33800BD688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				IBSC_MODULE = sushi4watch_WatchKit_Extension;
+				INFOPLIST_FILE = "sushi4watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		CF3DEED81DE9D33800BD688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				IBSC_MODULE = sushi4watch_WatchKit_Extension;
+				INFOPLIST_FILE = "sushi4watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		CF3DEEDB1DE9D33800BD688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				INFOPLIST_FILE = sushi4watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF3DEEDC1DE9D33800BD688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				INFOPLIST_FILE = sushi4watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF3DEEDE1DE9D33800BD688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				INFOPLIST_FILE = sushi4watchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushi4watch.app/sushi4watch";
+			};
+			name = Debug;
+		};
+		CF3DEEDF1DE9D33800BD688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				INFOPLIST_FILE = sushi4watchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushi4watch.app/sushi4watch";
+			};
+			name = Release;
+		};
+		CF3DEEE11DE9D33800BD688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				INFOPLIST_FILE = sushi4watchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sushi4watch;
+			};
+			name = Debug;
+		};
+		CF3DEEE21DE9D33800BD688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K72SHQ4B82;
+				INFOPLIST_FILE = sushi4watchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.nnsnodnb.sushi4watchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sushi4watch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3DEE881DE9D33800BD688D /* Build configuration list for PBXProject "sushi4watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3DEED01DE9D33800BD688D /* Debug */,
+				CF3DEED11DE9D33800BD688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3DEED21DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3DEED31DE9D33800BD688D /* Debug */,
+				CF3DEED41DE9D33800BD688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF3DEED61DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3DEED71DE9D33800BD688D /* Debug */,
+				CF3DEED81DE9D33800BD688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF3DEEDA1DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3DEEDB1DE9D33800BD688D /* Debug */,
+				CF3DEEDC1DE9D33800BD688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF3DEEDD1DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3DEEDE1DE9D33800BD688D /* Debug */,
+				CF3DEEDF1DE9D33800BD688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF3DEEE01DE9D33800BD688D /* Build configuration list for PBXNativeTarget "sushi4watchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3DEEE11DE9D33800BD688D /* Debug */,
+				CF3DEEE21DE9D33800BD688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3DEE851DE9D33800BD688D /* Project object */;
+}
